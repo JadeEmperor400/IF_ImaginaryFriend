@@ -53,12 +53,17 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Textbox\DecisionBox.cs" />
-    <Compile Include="Assets\Scripts\Textbox\Textbox.cs" />
-    <Compile Include="Assets\Scripts\Textbox\Talker.cs" />
     <Compile Include="Assets\Scripts\Textbox\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\Textbox\LinkSet.cs" />
+    <Compile Include="Assets\Scripts\Textbox\DecisionBox.cs" />
+    <Compile Include="Assets\Scripts\Textbox\Talker.cs" />
+    <Compile Include="Assets\Scripts\Textbox\Textbox.cs" />
     <Compile Include="Assets\Scripts\Textbox\Dialogue_Set.cs" />
+    <Compile Include="Assets\Scripts\Textbox\LinkSet.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\PaletteSwap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\PixPal.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

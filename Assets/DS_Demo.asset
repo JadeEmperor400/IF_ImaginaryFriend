@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: DS_Demo
   m_EditorClassIdentifier: 
   dialogues:
-  - profile: {fileID: -3805426807100575232, guid: 502c897baf6b71844abb353b297b66f2,
-      type: 3}
+  - profile: {fileID: -3805426807100575232, guid: 502c897baf6b71844abb353b297b66f2, type: 3}
     line: SAMP
   - profile: {fileID: 21300000, guid: 89d312c1a2f89664ba23d31cf6fe962a, type: 3}
     line: _lBig Text Test
@@ -22,3 +21,4 @@ MonoBehaviour:
     line: _smini text Test\nso teeny tiny
   - profile: {fileID: 0}
     line: SAMPLE_TEXT END
+  linkedSet: []
