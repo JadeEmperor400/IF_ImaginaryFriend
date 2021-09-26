@@ -93,17 +93,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3282}
     - Class: 114
-      Script: {instanceID: 4348}
+      Script: {instanceID: 3568}
     - Class: 114
-      Script: {instanceID: 4458}
+      Script: {instanceID: 4350}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 4460}
     - Class: 114
-      Script: {instanceID: 17942}
+      Script: {instanceID: 4474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -351,6 +351,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGame
   - hash:
       serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd
@@ -687,12 +693,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuitGame
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
