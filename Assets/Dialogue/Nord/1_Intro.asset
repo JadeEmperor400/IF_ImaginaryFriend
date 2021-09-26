@@ -57,8 +57,4 @@ MonoBehaviour:
     line: 'U: Thank you...'
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: (Phew. It\u2019s been five years and he\u2019s still so intense.)"
-  linkedSet:
-  - linkedSet: {fileID: 0}
-    option: Option
-    points: 0
-    flag: 0
+  linkedSet: []
