@@ -42,11 +42,66 @@ public class PaletteSwap : MonoBehaviour
         mColorSwapTex.SetPixel((int)index, 0, color);
     }
 
-    void SwapColors() {
-        SwapColor(SHADES.Gray1, target1);
-        SwapColor(SHADES.Gray2, target2);
-        SwapColor(SHADES.Gray3, target3);
-        SwapColor(SHADES.Gray4, target4);
+    public Color fromColor(Color c) {
+        return new Color(c.r, c.g, c.b, c.a);
+    }
+
+    public Color fromShade(SHADES shade) {
+        return new Color((int)shade/255.0f, (int)shade / 255.0f, (int)shade / 255.0f);
+    }
+
+    protected virtual void SwapColors() {
+        Color set1 = fromColor(target1),
+            set2 = fromColor(target2),
+            set3 = fromColor(target3),
+            set4 = fromColor(target4);
+
+        if (GameManager.GM != null) {
+
+            if (GameManager.GM.alignment < GameManager.GM.GRAY_THRESH && GameManager.GM.saturation == 0) {
+                set1 = fromShade(SHADES.Gray1);
+                set2 = fromShade(SHADES.Gray2);
+                set3 = fromShade(SHADES.Gray3);
+                set4 = fromShade(SHADES.Gray4);
+            }
+
+            float h, s, v;
+            Color.RGBToHSV(set1, out h, out s, out v);
+            if (h > 1.0f || h < 0.0f) {
+                h = h % 1.0f;
+            }
+            set1 = Color.HSVToRGB(h + GameManager.GM.hueShift,s * GameManager.GM.saturation, v);
+
+            Color.RGBToHSV(set2, out h, out s, out v);
+            if (h > 1.0f || h < 0.0f)
+            {
+                h = h % 1.0f;
+            }
+
+            set2 = Color.HSVToRGB(h + GameManager.GM.hueShift, s * GameManager.GM.saturation, v);
+
+            Color.RGBToHSV(set3, out h, out s, out v);
+            if (h > 1.0f || h < 0.0f)
+            {
+                h = h % 1.0f;
+            }
+            set3 = Color.HSVToRGB(h + GameManager.GM.hueShift, s * GameManager.GM.saturation, v);
+
+            Color.RGBToHSV(set4, out h, out s, out v);
+            if (h > 1.0f || h < 0.0f)
+            {
+                h = h % 1.0f;
+            }
+            set4 = Color.HSVToRGB(h + GameManager.GM.hueShift, s * GameManager.GM.saturation, v);
+
+
+
+        }
+        
+        SwapColor(SHADES.Gray1, set1);
+        SwapColor(SHADES.Gray2, set2);
+        SwapColor(SHADES.Gray3, set3);
+        SwapColor(SHADES.Gray4, set4);
         mColorSwapTex.Apply();
     }
 
