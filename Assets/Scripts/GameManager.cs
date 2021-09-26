@@ -14,6 +14,14 @@ public enum PALLET {
     Blue = 2
 }
 
+public enum FLAG {
+    None,
+    Floof,
+    Quit,
+    Party,
+    Work
+}
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager GM;
@@ -28,6 +36,8 @@ public class GameManager : MonoBehaviour
     public bool quit = false;
     [SerializeField]
     public bool party = false;
+    [SerializeField]
+    public bool goToWork = false;
 
     [SerializeField]
     public TYPE head  = 0;
@@ -71,6 +81,50 @@ public class GameManager : MonoBehaviour
         }
         else {
             Destroy(this);
+        }
+    }
+
+    public void TriggerFlag(FLAG flag) {
+        switch (flag) {
+            case FLAG.Floof:
+                if (!floofPic)
+                {
+                    floofPic = true;
+                }
+                else {
+                    floofPic = false;
+                }
+                break;
+            case FLAG.Party:
+                if (!party)
+                {
+                    party = true;
+                }
+                else
+                {
+                    party = false;
+                }
+                break;
+            case FLAG.Quit:
+                if (!quit)
+                {
+                    quit = true;
+                }
+                else
+                {
+                    quit = false;
+                }
+                break;
+            case FLAG.Work:
+                if (!goToWork)
+                {
+                    goToWork = true;
+                }
+                else
+                {
+                    goToWork = false;
+                }
+                break;
         }
     }
 }

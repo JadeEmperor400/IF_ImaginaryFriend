@@ -10,6 +10,8 @@ public class Dialogue_Set : ScriptableObject
     [SerializeField]
     private List<LinkSet> linkedSet = new List<LinkSet>();
 
+
+
     public List<LinkSet> LinkedSet {
         get { return linkedSet; }
     }
@@ -28,7 +30,12 @@ public class Dialogue_Set : ScriptableObject
 
     public void sendLinkedDialogue(int goTo) {
         if (linkedSet != null && linkedSet.Count > goTo) {
+
+            if (GameManager.GM != null) {
+                GameManager.GM.alignment += linkedSet[goTo].points;
+            }
             Textbox.T.nextDialogues.Insert(0, linkedSet[goTo].linkedSet);
+
         }
     }
 }
