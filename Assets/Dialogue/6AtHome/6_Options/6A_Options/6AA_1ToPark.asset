@@ -15,22 +15,22 @@ MonoBehaviour:
   dialogues:
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Lets go to the park.'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: You mean the one we used to play at?'
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Yeah.'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: I can\u2019t wait to see it again."
   - profile: {fileID: 0}
     line: (U and IF go to the park...)
   - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: YOOOO!'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: That\u2019s Dem! He was super cool!"
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: Yes. Now I\u2019m going to ignore you for now. He\u2019s going to think
       I\u2019m crazy talking to myself."
-  - profile: {fileID: 0}
+  - profile: {fileID: 583417684835264956, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Fair point.'
   - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "Dem: It\u2019s nice to see you again. I don\u2019t see you walking by
@@ -49,7 +49,7 @@ MonoBehaviour:
     line: 'Dem: You look good.'
   - profile: {fileID: 4378733909816618945, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Floof: Meoff! Meoff!'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: I can\u2019t believe it. Oh you're going by Floof now? Ok got it. "
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Floof is as adorable as always.'
@@ -62,7 +62,7 @@ MonoBehaviour:
   - profile: {fileID: -6981440821456382287, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: We took him to the vet, but not even they know what he is. I mean.
       What animal sounds like a cat and dog at the same time?'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: He\u2019s got a point Floof."
   - profile: {fileID: -2173788060579109146, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Floof: Meoff!'
@@ -71,11 +71,11 @@ MonoBehaviour:
   - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: And you? Are you still practicing to become an artist?
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: a336d308eb44baf459cd0e9073d1a5d2, type: 2}
+  - linkedSet: {fileID: 11400000, guid: 934faed89acec01499a65d7642b3e31b, type: 2}
     option: Yes
     points: 5
     flag: 0
-  - linkedSet: {fileID: 11400000, guid: 7d5c9cc6173a3494688925c2f4b4db9b, type: 2}
+  - linkedSet: {fileID: 11400000, guid: fc04225acf4004a448fef2ab9990dd3d, type: 2}
     option: No
     points: -5
     flag: 0

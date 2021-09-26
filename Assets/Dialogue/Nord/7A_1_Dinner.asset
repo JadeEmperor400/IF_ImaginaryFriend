@@ -17,9 +17,8 @@ MonoBehaviour:
     line: "U: Sure, I\u2019ll head over there now."
   - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: Ok. Great!'
-  - profile: {fileID: 0}
-    line: 'IF: Ohh. Can I tag along?'
-  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
-    line: 'U: (Ah, My subconscious mind still insists on manifesting itself through
-      my imaginary friend.) '
-  linkedSet: []
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: aadfd9b964b29fb4da0d32fdbfe3e189, type: 2}
+    option: Go Eat
+    points: 0
+    flag: 0

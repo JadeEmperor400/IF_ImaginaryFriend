@@ -12,5 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
   m_Name: 7_Day_Three
   m_EditorClassIdentifier: 
-  dialogues: []
-  linkedSet: []
+  dialogues:
+  - profile: {fileID: 0}
+    line: '(Doorbell: Ring Ring!)'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Hello.'
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Dem: Are you down to have dinner with us today?'
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: d05b6f8daa2aae242936c9dad3b563d9, type: 2}
+    option: Dinner
+    points: 5
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 58867096ea079f54da74a1f1f48572a9, type: 2}
+    option: Stay Home
+    points: -5
+    flag: 0

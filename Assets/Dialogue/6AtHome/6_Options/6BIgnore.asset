@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogues:
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: Ok. So my shift starts at 1:00 PM. It\u2019s time to go to work."
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF:  :( '
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Ignored again.'
   linkedSet:
   - linkedSet: {fileID: 11400000, guid: f369051d663d808489516a64a3daeb10, type: 2}

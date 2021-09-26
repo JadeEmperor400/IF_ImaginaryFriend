@@ -15,30 +15,30 @@ MonoBehaviour:
   dialogues:
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: Sure. I\u2019ll play a bit. It\u2019s an old game though."
-  - profile: {fileID: 0}
+  - profile: {fileID: -7474615155744080074, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Great! Pass me a controller.'
   - profile: {fileID: 0}
     line: '(U pass IF a controller.) '
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Thanks.'
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Are you ready?'
-  - profile: {fileID: 0}
-    line: 'IF: I was born ready.'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
+    line: 'IF: I was born ready!'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Great!'
   - profile: {fileID: 0}
     line: (. . .)
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: Now that I think about\u2026 I can\u2019t hold physical objects\u2026 "
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: \u2026 Weren't you the reason my sketchbook fell?"
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Nah. That was a coincidence.'
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
-    line: "U: \u201C...\u201D"
-  - profile: {fileID: 0}
-    line: 'U: I guess I won the fighting game then.'
+    line: 'U: ...'
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I guess I won the game then.'
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: Yeah\u2026"
   linkedSet: []

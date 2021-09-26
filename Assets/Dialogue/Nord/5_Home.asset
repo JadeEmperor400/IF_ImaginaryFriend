@@ -36,22 +36,22 @@ MonoBehaviour:
   - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: I''m an adult now who has to pay rent and taxes. And if I can land
       a lucrative job, then maybe one day...'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: '???: Hi. '
   - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Who said that?'
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: '???: Umm. Nice to see you again.'
   linkedSet:
-  - linkedSet: {fileID: 0}
+  - linkedSet: {fileID: 11400000, guid: d66764bf59f960c41bf38cb71efe5b84, type: 2}
     option: Acknowledge
     points: 5
-    flag: 7
-  - linkedSet: {fileID: 0}
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: e1744fd40b178524490ad8e9771e5582, type: 2}
     option: Inquire
     points: 0
     flag: 0
-  - linkedSet: {fileID: 0}
+  - linkedSet: {fileID: 11400000, guid: 611b197872337b04cbd6dee01b62c5a0, type: 2}
     option: Ignore
     points: -5
     flag: 0

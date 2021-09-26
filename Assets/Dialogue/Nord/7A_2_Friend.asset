@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
   m_Name: 7A_2_Friend
   m_EditorClassIdentifier: 
-  dialogues: []
-  linkedSet: []
+  dialogues:
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Dem: Welcome! So what do you want to talk about?'
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: 3d6cd02cba3aeb34681bb308073a21aa, type: 2}
+    option: IF
+    points: 5
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 12d8640e9f84eeb41b937dd6968d54a4, type: 2}
+    option: Money
+    points: -5
+    flag: 0

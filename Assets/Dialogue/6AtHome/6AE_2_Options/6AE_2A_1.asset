@@ -24,7 +24,7 @@ MonoBehaviour:
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: I try my best at work, but I\u2019m always being yelled at! Who would
       ever want to work in a place like that?"
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: U, I think you''re getting ahead of yourself here.'
   - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: I\u2019m out of here!"

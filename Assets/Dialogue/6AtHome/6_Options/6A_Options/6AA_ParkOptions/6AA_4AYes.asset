@@ -17,7 +17,7 @@ MonoBehaviour:
     line: 'U: I still want to become an artist. I really do, but all my time is going
       to work. I''m  gonna have to put it on hold for a while.'
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: 20bea4137ec458d4c97b679b0777b1f1, type: 2}
+  - linkedSet: {fileID: 11400000, guid: 21d373fec4cc66d4b9837cc46c83b6f9, type: 2}
     option: Continue
     points: 0
     flag: 0

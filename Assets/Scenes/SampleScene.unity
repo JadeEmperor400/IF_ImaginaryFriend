@@ -1062,5 +1062,13 @@ PrefabInstance:
       propertyPath: blue4.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7455231940768396573, guid: 3658e54a4af0b3845913f7b57f37015b, type: 3}
+      propertyPath: GRAY_THRESH
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455231940768396573, guid: 3658e54a4af0b3845913f7b57f37015b, type: 3}
+      propertyPath: COLOR_THRESH
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3658e54a4af0b3845913f7b57f37015b, type: 3}

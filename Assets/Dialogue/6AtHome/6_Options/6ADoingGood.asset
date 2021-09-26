@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: 6ADoingGood
   m_EditorClassIdentifier: 
   dialogues:
-  - profile: {fileID: 0}
+  - profile: {fileID: -7474615155744080074, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF:  :) '
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: So what are we going to do today?'
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: My shift starts at 1:00PM. I should get ready for work?'
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: Aww come on. Why don\u2019t you use a sick day and have some fun today."
   - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Let me think about it. What should I do?'
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: 933bb59a5434e8f4f96dc310bccda615, type: 2}
+  - linkedSet: {fileID: 11400000, guid: 825de88c1a3a022449355619f4d8877e, type: 2}
     option: Go to Park
     points: 0
     flag: 0
-  - linkedSet: {fileID: 11400000, guid: 4c034886a14bd83489579055aefe491e, type: 2}
+  - linkedSet: {fileID: 11400000, guid: be798034fb3f45246bb018fcb8133ac7, type: 2}
     option: Play Video Games
     points: 5
     flag: 0
