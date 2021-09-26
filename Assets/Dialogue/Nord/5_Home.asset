@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 5_Home
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Ahhhhh... Home sweet home.'
+  - profile: {fileID: 0}
+    line: (U throw the sketchbook on the table.)
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: The bed is nice and soft. Wish I could lay here all day!'
+  - profile: {fileID: 0}
+    line: "(Something tumbles to the ground\u2026)"
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: What the? My sketch book? It must have fallen from the table.'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: It''s crazy to think this sketch book has been with me ever since I
+      was little.'
+  - profile: {fileID: 0}
+    line: (U flip through the pages and see the first drawing.)
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: My first sketch\u2026 I used to have an imaginary friend and he looked
+      just like this. Funny how the mind works.\\n(U close the sketch book.)"
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Maybe my manager was right. It is time to grow up. '
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I''m an adult now who has to pay rent and taxes. And if I can land
+      a lucrative job, then maybe one day...'
+  - profile: {fileID: 0}
+    line: '???: Hi. '
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Who said that?'
+  - profile: {fileID: 0}
+    line: '???: Umm. Nice to see you again.'
+  linkedSet:
+  - linkedSet: {fileID: 0}
+    option: Acknowledge
+    points: 5
+    flag: 7
+  - linkedSet: {fileID: 0}
+    option: Inquire
+    points: 0
+    flag: 0
+  - linkedSet: {fileID: 0}
+    option: Ignore
+    points: -5
+    flag: 0

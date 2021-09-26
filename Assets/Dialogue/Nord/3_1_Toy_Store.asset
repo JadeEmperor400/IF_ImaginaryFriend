@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 3_1_Toy_Store
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: NO WAY!!! Toy Kingdom is closing!?'
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: What does the sign say? '
+  - profile: {fileID: 0}
+    line: "\u201CWe are so happy that our toys brought smiles to so many faces and
+      if we could we would continue to do so for another 20 years.\u201D "
+  - profile: {fileID: 0}
+    line: "\u201CSadly, we are no match against larger, newer kingdoms, so we must
+      move on to other lands.\""
+  - profile: {fileID: 0}
+    line: "\u201CBut don\u2019t cry, for our last week here all of our toys are on
+      sale for 60% off! Thank you again for supporting us until the end.\u201D"
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: When I was a kid I used to stare at all of those toys. Sometimes I
+      would pass by just to look at them all.  '
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I remember having this super cool toy set to! I think it had to do
+      with...'
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+    option: Animals
+    points: 0
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+    option: Plants
+    points: 0
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+    option: Dragons
+    points: 0
+    flag: 0

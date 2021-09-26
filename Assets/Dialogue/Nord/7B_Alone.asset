@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 7B_Alone
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: I\u2019m sorry, but I have to stay home today."
+  - profile: {fileID: 6864323966825792068, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Dem: That''s a shame...'
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: It\u2019s life I guess... bye."
+  - profile: {fileID: 6864323966825792068, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Dem: Bye.'
+  linkedSet: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 6AE_2Work
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 5929758910170741553, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "Manager: YOU\u2019RE FINALLY HERE! GO AND CLOCK IN."
+  - profile: {fileID: 5929758910170741553, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Manager: AFTER THAT TAKE CARE OF ALL THE TRASH. THEY ARE GETTING FULL.'
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Yes sir.'
+  - profile: {fileID: 0}
+    line: "IF: That\u2019s your boss? And you chose to put up with this? I would
+      quit if I were you."
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: 1d4b2de4665f1b347a9e19262394cd41, type: 2}
+    option: I quit!
+    points: 5
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: a77b2d8d3bd2480478d2e6c0f0d1f013, type: 2}
+    option: Be Honest.
+    points: 0
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 7a6b28aa8af6c4d4cbb301ed751821c7, type: 2}
+    option: Silent.
+    points: -5
+    flag: 0
