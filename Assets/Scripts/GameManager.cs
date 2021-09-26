@@ -19,7 +19,18 @@ public enum FLAG {
     Floof,
     Quit,
     Party,
-    Work
+    Work,
+    BeastHead,
+    PlantHead,
+    DragonHead,
+    BeastBod,
+    PlantBod,
+    DragonBod,
+    Red,
+    Green,
+    Blue,
+    Park,
+    Home
 }
 
 public class GameManager : MonoBehaviour
@@ -33,6 +44,7 @@ public class GameManager : MonoBehaviour
     public float saturation = 1.0f;
     public float shiftSpeed = 1.0f;
     public float hueLimit = 0.15f;
+
     //No Karens Allowed
     [SerializeField]
     public int alignment = 0;
@@ -200,6 +212,34 @@ public class GameManager : MonoBehaviour
                     goToWork = false;
                 }
                 break;
+            case FLAG.BeastBod:
+                body = TYPE.Beast;
+                break;
+            case FLAG.DragonBod:
+                body = TYPE.Dragon;
+                break;
+            case FLAG.PlantBod:
+                body = TYPE.Plant;
+                break;
+            case FLAG.BeastHead:
+                head = TYPE.Beast;
+                break;
+            case FLAG.DragonHead:
+                head = TYPE.Dragon;
+                break;
+            case FLAG.PlantHead:
+                head = TYPE.Plant;
+                break;
+            case FLAG.Red:
+                f_color = PALLET.Red;
+                break;
+            case FLAG.Blue:
+                f_color = PALLET.Blue;
+                break;
+            case FLAG.Green:
+                f_color = PALLET.Green;
+                break;
+
         }
     }
 }
