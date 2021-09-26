@@ -13,14 +13,18 @@ MonoBehaviour:
   m_Name: DS_Demo
   m_EditorClassIdentifier: 
   dialogues:
-  - profile: {fileID: -3805426807100575232, guid: 502c897baf6b71844abb353b297b66f2, type: 3}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: SAMP
-  - profile: {fileID: 21300000, guid: 89d312c1a2f89664ba23d31cf6fe962a, type: 3}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: _lBig Text Test
-  - profile: {fileID: 21300010, guid: 7e699baf5c87e19499a458ee39fcbfc2, type: 3}
+  - profile: {fileID: 583417684835264956, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: _smini text Test\nso teeny tiny
-  - profile: {fileID: 0}
+  - profile: {fileID: -7474615155744080074, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: SAMPLE_TEXT END
+  - profile: {fileID: 21300000, guid: 053ac22fc0fea5a49b7fab25136afb27, type: 3}
+    line: SAMPLE_TEXT
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: SAMPLE_TEXT
   linkedSet:
   - linkedSet: {fileID: 0}
     option: Option
