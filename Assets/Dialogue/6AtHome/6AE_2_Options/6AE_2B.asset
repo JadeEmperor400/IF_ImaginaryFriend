@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 6AE_2B
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Manager?'
+  - profile: {fileID: 5929758910170741553, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Manager: WHAT IS IT?'
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: Recently I\u2019ve been feeling frustrated at work. I know I sometimes
+      daydream, but I really want to do a good job."
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: And I think that goes for many of us here. Could you cut us some slack?
+      Doesn''t have to be much. '
+  - profile: {fileID: 2056386784222973545, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "Manager: I see\u2026 I\u2019ve been pushing you all too hard. I am passionate
+      about making Bright Burger the best fast food chain here."
+  - profile: {fileID: 2056386784222973545, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "Manager: but that won\u2019t be possible if my employees are always quitting.
+      You are very brave. That will get you far in life."
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Thank you manager.'
+  - profile: {fileID: 2056386784222973545, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Manager: Did you finish taking out the trash?'
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: No...'
+  - profile: {fileID: 2056386784222973545, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "Manager: That's fine. Benny will do it. If you're up to it, come to my
+      office and I\u2019ll teach you a bit about being a manager."
+  linkedSet: []

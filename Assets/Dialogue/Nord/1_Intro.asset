@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 1_Intro
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 0}
+    line: 'Lady: Hello.'
+  - profile: {fileID: 0}
+    line: 'Lady: Hellooo. '
+  - profile: {fileID: 0}
+    line: "Lady: Hey. Ahem. Um\u2026 "
+  - profile: {fileID: 0}
+    line: '_lLady: HELLO!!!'
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "???: Ack! I\u2019m sorry. Here's your drink. "
+  - profile: {fileID: 0}
+    line: 'Lady: Thank you.  '
+  - profile: {fileID: 0}
+    line: "Lady: Um, Actually\u2026 I think you're missing something. "
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "???: Your large fries and burger! I\u2019m sorry Ma\u2019am "
+  - profile: {fileID: 0}
+    line: 'Lady: Thank you. Have a nice day. '
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: '???: You too. Please come to Bright Burger again...  '
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: '???: (What is this presence behind me? Has Yellowstone erupted?) '
+  - profile: {fileID: 0}
+    line: 'Manager: WERE YOU DOZING OFF AGAIN U!? '
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Of course not! How can I help you? '
+  - profile: {fileID: 0}
+    line: 'Manager: HOW CAN YOU HELP ME? DO KNOW WHAT HAPPENS WHEN YOU TAKE TOO LONG
+      TO HAND OUT AN ORDER?  '
+  - profile: {fileID: 0}
+    line: "Manager: IT BACKS UP THE LINE AND RUINS OUR REPUTATION! THAT\u2019S HOW
+      YOU CAN HELP ME!!! "
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: I-I\u2019m sorry. I will strive to do better. "
+  - profile: {fileID: 0}
+    line: "Manager: YOU BETTER. IF YOU WANT TO BECOME RICH YOU\u2019RE GONNA HAVE
+      TO QUIT DAYDREAMING AND GROW UP.  "
+  - profile: {fileID: 0}
+    line: "Manager: Anyways, you can go home now. I\u2019m giving overtime to Benny
+      today. "
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Thank you...'
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: (Phew. It\u2019s been five years and he\u2019s still so intense.)"
+  linkedSet:
+  - linkedSet: {fileID: 0}
+    option: Option
+    points: 0
+    flag: 0

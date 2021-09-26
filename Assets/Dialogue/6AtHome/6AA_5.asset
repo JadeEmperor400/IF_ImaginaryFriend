@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 6AA_5
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 0}
+    line: 'Dem: ...'
+  - profile: {fileID: 0}
+    line: 'Dem: Then at least pursue it as a hobby. I think you shouldn''t give up
+      because once you do your life will become mundane. Filled with only work. That''s
+      what I think at least.'
+  - profile: {fileID: 0}
+    line: 'Floof: Meoff!'
+  - profile: {fileID: 0}
+    line: "Dem: It looks like Floof is ready to go. It was nice catching up with
+      you. Actually, why don\u2019t you come by my house on saturday? It\u2019s been
+      a while since my parents have seen you."
+  - profile: {fileID: 0}
+    line: "U: I\u2019ll think about it."
+  - profile: {fileID: 0}
+    line: 'Dem: Ok. Bye.'
+  - profile: {fileID: 0}
+    line: "U: Bye. It\u2019s almost time for work. Better head over."
+  linkedSet: []

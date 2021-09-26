@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 2_1Ice_cream_Store
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: I\u2019m glad my shift is over, but I could have used the overtime. "
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: . . .'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: Wow. That\u2019s \u2018Old Bobbins\u2019 Ice cream shop. That\u2019s
+      where my parents used to buy me my favorite ice cream after every doctor\u2019s
+      visit. "
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Now I have to buy my own ice cream.'
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: What was my favorite flavor again? The color of It was...
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: d6d27b4db26a7ea41b2ce7f98bb7e7ab, type: 2}
+    option: Red
+    points: 0
+    flag: 11
+  - linkedSet: {fileID: 11400000, guid: d6d27b4db26a7ea41b2ce7f98bb7e7ab, type: 2}
+    option: Blue
+    points: 0
+    flag: 13
+  - linkedSet: {fileID: 11400000, guid: d6d27b4db26a7ea41b2ce7f98bb7e7ab, type: 2}
+    option: Green
+    points: 0
+    flag: 12
