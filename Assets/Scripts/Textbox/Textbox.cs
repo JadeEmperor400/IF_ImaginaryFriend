@@ -27,6 +27,11 @@ public class Textbox : MonoBehaviour
     public bool Go = false;
     public bool forcedGo = false;
 
+    public Sprite refSprite1, refSprite2, refSprite3, refSprite4;
+    public List<Sprite> bSprite;
+    public List<Sprite> pSprite;
+    public List<Sprite> dSprite;
+
     //Is a textbox active?
     public static bool On {
         get {
@@ -112,7 +117,70 @@ public class Textbox : MonoBehaviour
 
             if (dialogues[d].Profile != null)
             {
-                profile.sprite = dialogues[d].Profile;
+                if (dialogues[d].Profile == refSprite1)
+                {
+                    switch (GameManager.GM.head)
+                    {
+                        case TYPE.Plant:
+                            profile.sprite = pSprite[0];
+                            break;
+                        case TYPE.Dragon:
+                            profile.sprite = dSprite[0];
+                            break;
+                        default:
+                            profile.sprite = bSprite[0];
+                            break;
+                    }
+                }
+                else if (dialogues[d].Profile == refSprite2)
+                {
+                    switch (GameManager.GM.head)
+                    {
+                        case TYPE.Plant:
+                            profile.sprite = pSprite[1];
+                            break;
+                        case TYPE.Dragon:
+                            profile.sprite = dSprite[1];
+                            break;
+                        default:
+                            profile.sprite = bSprite[1];
+                            break;
+                    }
+                }
+                else if (dialogues[d].Profile == refSprite3)
+                {
+                    switch (GameManager.GM.head)
+                    {
+                        case TYPE.Plant:
+                            profile.sprite = pSprite[2];
+                            break;
+                        case TYPE.Dragon:
+                            profile.sprite = dSprite[2];
+                            break;
+                        default:
+                            profile.sprite = bSprite[2];
+                            break;
+                    }
+                }
+                else if (dialogues[d].Profile == refSprite4)
+                {
+                    switch (GameManager.GM.head)
+                    {
+                        case TYPE.Plant:
+                            profile.sprite = pSprite[3];
+                            break;
+                        case TYPE.Dragon:
+                            profile.sprite = dSprite[3];
+                            break;
+                        default:
+                            profile.sprite = bSprite[3];
+                            break;
+                    }
+                }
+                else
+                {
+                    profile.sprite = dialogues[d].Profile;
+                }
                 profile.gameObject.SetActive(true);
             }
             else
