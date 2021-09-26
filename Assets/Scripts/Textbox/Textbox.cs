@@ -196,14 +196,13 @@ public class Textbox : MonoBehaviour
             yield return new WaitUntil(() => !DecisionBox.S.Deciding);
         }
 
-        GameManager.GM.progress++;
-
         if (nextDialogues.Count > 0)
         {
             coroutine = StartCoroutine(readDialogue(nextDialogues[0]));
             nextDialogues.RemoveAt(0);
             yield break;
         }
+        GameManager.GM.progress++;
         coroutine = StartCoroutine(hideTextbox());
         yield break;
     } //END readDialogue

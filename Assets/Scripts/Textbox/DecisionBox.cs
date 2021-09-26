@@ -100,8 +100,12 @@ public class DecisionBox : MonoBehaviour
             }
 
             if (Input.GetButtonDown("Jump")) {
-                //Send Dialogue based on choice
+                //Send Dialogue based on choic
+                GameManager.GM.alignment += Textbox.T.currentSet.LinkedSet[selectedChoice % choices.Count].points;
+                GameManager.GM.TriggerFlag(Textbox.T.currentSet.LinkedSet[selectedChoice % choices.Count].flag);
                 Textbox.T.currentSet.sendLinkedDialogue(selectedChoice % choices.Count);
+                
+
                 Clear();
             }
         }
