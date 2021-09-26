@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1276474303565595611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2694776582709607770}
+  - component: {fileID: 7455231940768396573}
+  m_Layer: 0
+  m_Name: _GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2694776582709607770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276474303565595611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.996135, y: -0.25056776, z: -0.5266335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7455231940768396573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276474303565595611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86ba7c3904679143b62d091afa279bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GRAY_THRESH: -3
+  COLOR_THRESH: 3
+  hueShift: 0
+  saturation: 1
+  shiftSpeed: 1
+  hueLimit: 0.15
+  alignment: 0
+  floofPic: 0
+  quit: 0
+  party: 0
+  goToWork: 0
+  head: 0
+  body: 0
+  f_color: 0
+  progress: 0
+  blue1: {r: 0, g: 0, b: 1, a: 1}
+  blue2: {r: 1, g: 0, b: 0, a: 1}
+  blue3: {r: 200, g: 100, b: 10, a: 1}
+  blue4: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  red1: {r: 0, g: 0, b: 1, a: 1}
+  red2: {r: 1, g: 0, b: 0, a: 1}
+  red3: {r: 200, g: 100, b: 10, a: 1}
+  red4: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  green1: {r: 0, g: 0, b: 1, a: 1}
+  green2: {r: 1, g: 0, b: 0, a: 1}
+  green3: {r: 200, g: 100, b: 10, a: 1}
+  green4: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
