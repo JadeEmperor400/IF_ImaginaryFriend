@@ -46,12 +46,12 @@ MonoBehaviour:
   - linkedSet: {fileID: 11400000, guid: d66764bf59f960c41bf38cb71efe5b84, type: 2}
     option: Acknowledge
     points: 5
-    flag: 0
+    flag: 16
   - linkedSet: {fileID: 11400000, guid: e1744fd40b178524490ad8e9771e5582, type: 2}
     option: Inquire
     points: 0
-    flag: 0
+    flag: 16
   - linkedSet: {fileID: 11400000, guid: 611b197872337b04cbd6dee01b62c5a0, type: 2}
     option: Ignore
     points: -5
-    flag: 0
+    flag: 16

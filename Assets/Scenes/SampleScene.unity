@@ -959,32 +959,44 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: ae94bb9c4184b514f8ca8c5907614766, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: ae94bb9c4184b514f8ca8c5907614766, type: 2}
+      objectReference: {fileID: 11400000, guid: f9dde88f3f88e1140b26245de5dabc5c, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: f9dde88f3f88e1140b26245de5dabc5c, type: 2}
+      objectReference: {fileID: 11400000, guid: fac646bb320044547844d7323a2a6eaf, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: fac646bb320044547844d7323a2a6eaf, type: 2}
+      objectReference: {fileID: 11400000, guid: 0de3cfd816412fa4ca5f2d087d26baa2, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 0de3cfd816412fa4ca5f2d087d26baa2, type: 2}
+      objectReference: {fileID: 11400000, guid: a0f955191ea883b42914d6f4e33708b5, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: a0f955191ea883b42914d6f4e33708b5, type: 2}
+      objectReference: {fileID: 11400000, guid: 9540b9096c329e34ab4bafdb9c643518, type: 2}
     - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
       propertyPath: nextDialogues.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: 9540b9096c329e34ab4bafdb9c643518, type: 2}
+      objectReference: {fileID: 11400000, guid: b66b620a56b18d94fbb792160d3baf69, type: 2}
+    - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
+      propertyPath: nextDialogues.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 498d10f79108ceb4c8b177e1bb858a5d, type: 2}
+    - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
+      propertyPath: nextDialogues.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 498d10f79108ceb4c8b177e1bb858a5d, type: 2}
+    - target: {fileID: 5999029165561546195, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
+      propertyPath: nextDialogues.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 498d10f79108ceb4c8b177e1bb858a5d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1aefdf9ae0e2bf458e2b9b1bf97ecc4, type: 3}
 --- !u!1001 &5900066809307465247
@@ -1064,3 +1076,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3658e54a4af0b3845913f7b57f37015b, type: 3}
+--- !u!1 &5900066809307465248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1276474303565595611, guid: 3658e54a4af0b3845913f7b57f37015b, type: 3}
+  m_PrefabInstance: {fileID: 5900066809307465247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5900066809307465249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900066809307465248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cce6fb772af9bb4449764d2158285283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

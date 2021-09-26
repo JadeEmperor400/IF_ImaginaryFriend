@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\PaletteSwap.cs" />
     <Compile Include="Assets\Scripts\Textbox\Dialogue_Set.cs" />
     <Compile Include="Assets\Scripts\Textbox\LinkSet.cs" />
+    <Compile Include="Assets\QuitGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\PixPal.shader" />
