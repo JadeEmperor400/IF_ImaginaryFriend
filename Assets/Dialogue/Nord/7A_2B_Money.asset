@@ -12,5 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
   m_Name: 7A_2B_Money
   m_EditorClassIdentifier: 
-  dialogues: []
+  dialogues:
+  - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I came to a realization that money is a necessity.'
+  - profile: {fileID: -7236180912042712726, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "Dem: It won\u2019t buy you happiness, but it does give you the peace of
+      mind to enjoy the things that would make you happy. "
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I can agree with that.'
   linkedSet: []

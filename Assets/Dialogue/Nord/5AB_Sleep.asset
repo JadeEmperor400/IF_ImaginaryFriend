@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
   m_Name: 5AB_Sleep
   m_EditorClassIdentifier: 
-  dialogues: []
+  dialogues:
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: I\u2019m sorry. As excited as I am to see you again. I have work tomorrow."
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
+    line: "IF: Then it can\u2019t be helped. I\u2019ll see you tomorrow morning then."
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Goodnight imaginary friend. '
   linkedSet: []

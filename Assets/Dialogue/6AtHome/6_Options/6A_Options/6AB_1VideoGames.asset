@@ -15,6 +15,6 @@ MonoBehaviour:
   dialogues:
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: I\u2019ll play some video games."
-  - profile: {fileID: 0}
+  - profile: {fileID: 8713120321045492238, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Sounds good with me!'
   linkedSet: []

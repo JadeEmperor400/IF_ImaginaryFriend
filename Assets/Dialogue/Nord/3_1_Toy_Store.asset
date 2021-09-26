@@ -33,15 +33,15 @@ MonoBehaviour:
     line: 'U: I remember having this super cool toy set to! I think it had to do
       with...'
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+  - linkedSet: {fileID: 11400000, guid: c858e35fa58f57a469efb7efd8a72f57, type: 2}
     option: Animals
     points: 0
-    flag: 0
-  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+    flag: 8
+  - linkedSet: {fileID: 11400000, guid: c858e35fa58f57a469efb7efd8a72f57, type: 2}
     option: Plants
     points: 0
-    flag: 0
-  - linkedSet: {fileID: 11400000, guid: 27d6a251d65e8a844b4f3b06894dabd7, type: 2}
+    flag: 9
+  - linkedSet: {fileID: 11400000, guid: c858e35fa58f57a469efb7efd8a72f57, type: 2}
     option: Dragons
     points: 0
-    flag: 0
+    flag: 10

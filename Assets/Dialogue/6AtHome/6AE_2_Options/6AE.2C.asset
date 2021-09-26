@@ -17,7 +17,7 @@ MonoBehaviour:
     line: "U: I don\u2019t want to live like this for the rest of my life..."
   - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: With money I won\u2019t have to live like this and I\u2019ll be happy."
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: So, money is all you need to be happy?'
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: ...'

@@ -19,14 +19,14 @@ MonoBehaviour:
     line: 'Manager: AFTER THAT TAKE CARE OF ALL THE TRASH. THEY ARE GETTING FULL.'
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Yes sir.'
-  - profile: {fileID: 0}
+  - profile: {fileID: 7900860951653682938, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: "IF: That\u2019s your boss? And you chose to put up with this? I would
       quit if I were you."
   linkedSet:
   - linkedSet: {fileID: 11400000, guid: 1d4b2de4665f1b347a9e19262394cd41, type: 2}
     option: I quit!
     points: 5
-    flag: 0
+    flag: 2
   - linkedSet: {fileID: 11400000, guid: a77b2d8d3bd2480478d2e6c0f0d1f013, type: 2}
     option: Be Honest.
     points: 0

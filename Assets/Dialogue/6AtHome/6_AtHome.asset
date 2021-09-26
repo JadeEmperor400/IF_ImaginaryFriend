@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 6_AtHome
   m_EditorClassIdentifier: 
   dialogues:
-  - profile: {fileID: 0}
+  - profile: {fileID: -7474615155744080074, guid: 75993714e8c11c84c943d9d806475d73, type: 3}
     line: 'IF: Good morning! How are you today?'
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: f81ff2493ecbeaf40985f2d150c3541f, type: 2}
-    option: Im doing Good.
+  - linkedSet: {fileID: 11400000, guid: 60f7ca3b1be531a489b9a7c3adcb4376, type: 2}
+    option: Doing Good.
     points: 5
     flag: 0
-  - linkedSet: {fileID: 11400000, guid: ce146321c6daf41488f5fbc6d3570dae, type: 2}
-    option: Deny Existance
+  - linkedSet: {fileID: 11400000, guid: a2fbbe75bb0e82f45ba7ed881098a504, type: 2}
+    option: Ignore
     points: -5
     flag: 0

@@ -24,7 +24,7 @@ MonoBehaviour:
   - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'U: Now I have to buy my own ice cream.'
   - profile: {fileID: -1134870175597543340, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
-    line: What was my favorite flavor again? The color of It was...
+    line: 'U: What was my favorite flavor again? The color of It was...'
   linkedSet:
   - linkedSet: {fileID: 11400000, guid: d6d27b4db26a7ea41b2ce7f98bb7e7ab, type: 2}
     option: Red

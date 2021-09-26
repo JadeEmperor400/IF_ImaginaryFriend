@@ -16,11 +16,11 @@ MonoBehaviour:
   - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: I wish, but work takes too much time and when I get home I collapse on
       the bed.
-  - profile: {fileID: 0}
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: It is also hard making money off of art pieces. It\u2019s probably
       better to give up on that. It was just a childish dream anyway."
   linkedSet:
-  - linkedSet: {fileID: 11400000, guid: 20bea4137ec458d4c97b679b0777b1f1, type: 2}
+  - linkedSet: {fileID: 11400000, guid: 21d373fec4cc66d4b9837cc46c83b6f9, type: 2}
     option: Continue
     points: 0
     flag: 0

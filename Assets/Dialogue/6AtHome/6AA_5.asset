@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: 6AA_5
   m_EditorClassIdentifier: 
   dialogues:
-  - profile: {fileID: 0}
+  - profile: {fileID: 6864323966825792068, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: ...'
-  - profile: {fileID: 0}
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: Then at least pursue it as a hobby. I think you shouldn''t give up
       because once you do your life will become mundane. Filled with only work. That''s
       what I think at least.'
-  - profile: {fileID: 0}
+  - profile: {fileID: -2029941700744411495, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Floof: Meoff!'
-  - profile: {fileID: 0}
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "Dem: It looks like Floof is ready to go. It was nice catching up with
       you. Actually, why don\u2019t you come by my house on saturday? It\u2019s been
       a while since my parents have seen you."
-  - profile: {fileID: 0}
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: I\u2019ll think about it."
-  - profile: {fileID: 0}
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: 'Dem: Ok. Bye.'
-  - profile: {fileID: 0}
-    line: "U: Bye. It\u2019s almost time for work. Better head over."
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Bye.'
   linkedSet: []

@@ -16,7 +16,7 @@ MonoBehaviour:
   - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: Old Bobbins is old, and Toy Kingdom is closing, but the one place that
       will never change is the park. It\u2019s a nice breath of fresh air."
-  - profile: {fileID: 0}
+  - profile: {fileID: -7884971494852497721, guid: c7b2279f8292b9c4c89a3962a0c022b9, type: 3}
     line: (Someone waves at U.)
   - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
     line: "U: It\u2019s my childhood friend Dem!"
