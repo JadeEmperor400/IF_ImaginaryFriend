@@ -21,4 +21,8 @@ MonoBehaviour:
     line: _smini text Test\nso teeny tiny
   - profile: {fileID: 0}
     line: SAMPLE_TEXT END
-  linkedSet: []
+  linkedSet:
+  - linkedSet: {fileID: 0}
+    option: Option
+    points: 0
+    flag: 3

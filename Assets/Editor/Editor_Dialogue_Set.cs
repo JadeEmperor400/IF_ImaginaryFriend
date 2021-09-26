@@ -111,10 +111,25 @@ public class Editor_Dialogue_Set : Editor
             EditorUtility.SetDirty(ds);
         }
 
+        int lc = 0;
         foreach (LinkSet l in ds.LinkedSet)
         {
-            l.option = EditorGUILayout.TextField("Text", l.option);
-            l.linkedSet = (Dialogue_Set)EditorGUILayout.ObjectField("Linked Set", l.linkedSet, typeof(Dialogue_Set), false);
+            EditorGUI.BeginChangeCheck();
+            string option = EditorGUILayout.TextField("Text", l.option);
+            Dialogue_Set linkedSet = (Dialogue_Set)EditorGUILayout.ObjectField("Linked Set", l.linkedSet, typeof(Dialogue_Set), false);
+            int points = EditorGUILayout.IntField("Points", l.points);
+            FLAG flag = (FLAG)EditorGUILayout.EnumPopup("Triggers Flag?", l.flag);
+
+            if (EditorGUI.EndChangeCheck()) {
+                Undo.RecordObject(ds, "Change LinkSet");
+                l.option = option ;
+                l.linkedSet = linkedSet;
+                l.points = points;
+                l.flag = flag;
+                EditorUtility.SetDirty(ds);
+            }
+
+            lc++;
         }
 
         if (GUILayout.Button("Remove Option") && ds.LinkedSet.Count > 0)
