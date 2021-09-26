@@ -9,14 +9,14 @@ using UnityEngine;
 public class Dialogue
 {
     [SerializeField]
-    protected Sprite profile = null;
+    private Sprite profile = null;
     public Sprite Profile {
         set { profile = value; }
         get { return profile; } }
 
     [SerializeField]
-    protected string line = "SAMPLE_TEXT";
-    public virtual string Line {
+    private string line = "SAMPLE_TEXT";
+    public string Line {
         set { line = value; }
         get { return line;}
     }
