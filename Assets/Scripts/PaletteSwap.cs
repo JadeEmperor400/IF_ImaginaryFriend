@@ -16,7 +16,7 @@ public class PaletteSwap : MonoBehaviour
     Texture2D mColorSwapTex;
     Color[] mSpriteColors;
     [SerializeField]
-    Color target1 = Color.blue,
+    public Color target1 = Color.blue,
         target2 = Color.red,
         target3 = new Color(200, 100, 10), 
         target4 = Color.yellow;

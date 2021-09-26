@@ -28,7 +28,9 @@ public enum FLAG {
     DragonBod,
     Red,
     Green,
-    Blue
+    Blue,
+    Park,
+    Home
 }
 
 public class GameManager : MonoBehaviour
