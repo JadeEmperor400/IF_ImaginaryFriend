@@ -22,6 +22,15 @@ public enum FLAG {
     Work
 }
 
+public enum ROUTE {
+    Park1,
+    Games1,
+    Sleep1,
+    Stay2,
+    Work2,
+    Party3,
+    Home3
+}
 public class GameManager : MonoBehaviour
 {
     public static GameManager GM;
@@ -45,9 +54,12 @@ public class GameManager : MonoBehaviour
     public TYPE body = 0;
     [SerializeField]
     public PALLET f_color = PALLET.Red;
+ 
 
     [SerializeField]
     public int progress = 0;
+    [SerializeField]
+    public ROUTE route = ROUTE.Park1;
 
     public void StartGame() {
         alignment = 0;
