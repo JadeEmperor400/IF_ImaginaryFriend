@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 5AA_Play
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: Sure. I\u2019ll play a bit. It\u2019s an old game though."
+  - profile: {fileID: 0}
+    line: 'IF: Great! Pass me a controller.'
+  - profile: {fileID: 0}
+    line: '(U pass IF a controller.) '
+  - profile: {fileID: 0}
+    line: 'IF: Thanks.'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Are you ready?'
+  - profile: {fileID: 0}
+    line: 'IF: I was born ready!'
+  - profile: {fileID: 0}
+    line: 'U: Great!'
+  - profile: {fileID: 0}
+    line: (. . .)
+  - profile: {fileID: 0}
+    line: "IF: Now that I think about it\u2026 I can\u2019t hold physical objects\u2026 "
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: \u2026 Weren't you the reason my sketchbook fell?"
+  - profile: {fileID: 0}
+    line: 'IF: Nah. That was a coincidence.'
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: \u201C...\u201D"
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I guess I won the game then.'
+  - profile: {fileID: 0}
+    line: "IF: Yeah\u2026"
+  linkedSet: []

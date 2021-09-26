@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 5A_Acknowledge
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: You look just like the picture of my imaginary friend!'
+  - profile: {fileID: 0}
+    line: 'IF: That''s because I am your imaginary friend. \nDon''t you remember
+      me?'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: Yes.. I do. I can\u2019t believe you're here."
+  - profile: {fileID: 0}
+    line: "IF: I know! I can\u2019t believe it either, but here I am. So how has
+      everything been with you?"
+  - profile: {fileID: 0}
+    line: (U recount some experiences with IF.)
+  - profile: {fileID: 0}
+    line: 'IF: What! No way! Why are you still working there? '
+  - profile: {fileID: 0}
+    line: 'IF: And you haven''t been drawing? That''s insane. You were always so
+      passionate about that. '
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: I know, but I have to make money. I\u2019m an adult now. "
+  - profile: {fileID: 5163927111146127485, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: I have to accept reality.'
+  - profile: {fileID: 0}
+    line: 'IF: Accept reality...? Accept reality!? '
+  - profile: {fileID: 0}
+    line: 'IF: Now listen here U. '
+  - profile: {fileID: 0}
+    line: 'IF: If your reality is giving up on things that matter the most to you
+      just so you can live with a mediocre job then you''ve got it all wrong!'
+  - profile: {fileID: 0}
+    line: 'IF: That manager of yours, he''s like that because he made the mistake
+      you are about to make. '
+  - profile: {fileID: 0}
+    line: "IF: Now if you join me in an old fashioned game of RetroMon. I\u2019ll
+      show you how to really get your life back on track!"
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: 7a6f3c685de6c4840b36493be08f5fa3, type: 2}
+    option: Play
+    points: 5
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 6ddde182612daea4bab16d3dd0f06197, type: 2}
+    option: Sleep
+    points: 0
+    flag: 0

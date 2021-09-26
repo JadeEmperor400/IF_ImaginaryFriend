@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 5B_Inquire
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: My imaginary friend?'
+  - profile: {fileID: 0}
+    line: 'IF: In the imaginary flesh.'
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Why has my subconscious mind brought back my imaginary friend?'
+  - profile: {fileID: 0}
+    line: "IF: I don\u2019t know. I just popped into existence. I could have told
+      you that if you asked me though... "
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: And it responds? So I am now hallucinating and able to talk with it.
+      Could I use my imaginary friend as a way to understand my subconscious mental
+      state?'
+  - profile: {fileID: 0}
+    line: 'IF: Umm. Aren''t you happy to see me? I mean. It''s been a long time...
+      since we last saw each other... Like 18 years ago... '
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Imaginary friend. What is the status of my subconscious mind. Am I
+      incredibly stressed or has age caught up to me? '
+  - profile: {fileID: 0}
+    line: "IF: Like I said. I don\u2019t know. And what do you mean age has caught
+      up with you? You're 20-ish years old."
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: "U: If that's the case then I\u2019m going to sleep and see if you're just
+      a product of my exhaustion. "
+  - profile: {fileID: 0}
+    line: 'IF: What. You''re just going to leave me hanging here? No goodnight? '
+  - profile: {fileID: -7742428027910504570, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Goodnight '
+  - profile: {fileID: 0}
+    line: 'IF: I guess that''s something. Goodnight... '
+  linkedSet: []

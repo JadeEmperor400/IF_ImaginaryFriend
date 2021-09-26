@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828c47c4a50d62f4d8846a98e9506ad4, type: 3}
+  m_Name: 7_Day_Three
+  m_EditorClassIdentifier: 
+  dialogues:
+  - profile: {fileID: 0}
+    line: '(Doorbell: Ring Ring!)'
+  - profile: {fileID: 8481890442932578956, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'U: Hello!'
+  - profile: {fileID: 4689257179259342027, guid: d49e1f3447b5bb940a4bb35e71ed3f6b, type: 3}
+    line: 'Dem: Hey, are you down to have dinner with us today?'
+  linkedSet:
+  - linkedSet: {fileID: 11400000, guid: a99752bf36214d749aab8d25e28f66d3, type: 2}
+    option: Dinner
+    points: 5
+    flag: 0
+  - linkedSet: {fileID: 11400000, guid: 4dd9cd9a5afb4d44c922ab3b34392f01, type: 2}
+    option: Stay Home
+    points: -5
+    flag: 0
