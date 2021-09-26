@@ -30,7 +30,8 @@ public enum FLAG {
     Green,
     Blue,
     Park,
-    Home
+    Home,
+    FadeIn
 }
 
 public class GameManager : MonoBehaviour
@@ -239,7 +240,9 @@ public class GameManager : MonoBehaviour
             case FLAG.Green:
                 f_color = PALLET.Green;
                 break;
-
+            case FLAG.FadeIn:
+                FindObjectOfType<ImaginaryFriend>()?.StartFadeIn() ;
+                break;
         }
     }
 }

@@ -59,7 +59,7 @@ public class Textbox : MonoBehaviour
 
     private void Start()
     {
-        read(nextDialogues[0]);
+        read();
     }
 
     private void Update()
@@ -91,6 +91,20 @@ public class Textbox : MonoBehaviour
         }
         else {
             nextDialogues.Add(dialogues);
+        }
+    }
+
+    public void read() {
+        if (nextDialogues == null || nextDialogues[0] == null) {
+            return;
+        }
+
+        if (coroutine == null)
+        {
+            GetComponent<Image>().rectTransform.localScale = new Vector3(1, 0, 1);
+            gameObject.SetActive(true);
+            coroutine = StartCoroutine(readDialogue(nextDialogues[0]));
+            nextDialogues.RemoveAt(0);
         }
     }
 

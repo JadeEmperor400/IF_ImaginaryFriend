@@ -74,8 +74,8 @@ public class ImaginaryFriend : MonoBehaviour
 
     void Awake()
     {
-       // headSprite.color = Color.clear;
-        //bodySprite.color = Color.clear;
+       headSprite.color = Color.clear;
+       bodySprite.color = Color.clear;
     }
 
     // Start is called before the first frame update
@@ -93,7 +93,44 @@ public class ImaginaryFriend : MonoBehaviour
         setBuddy();
     }
 
+    public void StartFadeIn() {
+        StartCoroutine(FadeIn());
+    }
+
     public IEnumerator FadeIn() {
+        float renderProgress = 0;
+
+        headSprite.color = Color.clear;
+        bodySprite.color = Color.clear;
+
+        while (renderProgress < 1.0f) {
+
+            yield return new WaitForSeconds(1 / 60.0f);
+            renderProgress += 1 / 120.0f;
+
+            if (renderProgress > 1) {
+                renderProgress = 1;
+            }
+
+            headSprite.color = new Color(0,0,0, renderProgress);
+            bodySprite.color = new Color(0,0,0, renderProgress);
+        }
+
+        renderProgress = 0;
+        while (renderProgress < 1.0f)
+        {
+
+            yield return new WaitForSeconds(1 / 60.0f);
+            renderProgress += 1 / 120.0f;
+
+            if (renderProgress > 1)
+            {
+                renderProgress = 1;
+            }
+
+            headSprite.color = new Color(renderProgress, renderProgress, renderProgress, 1);
+            bodySprite.color = new Color(renderProgress, renderProgress, renderProgress, 1);
+        }
 
         yield break;
     }
