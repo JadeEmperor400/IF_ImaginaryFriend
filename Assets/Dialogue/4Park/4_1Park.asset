@@ -30,12 +30,12 @@ MonoBehaviour:
   - linkedSet: {fileID: 11400000, guid: 1cb8c78863aa4d045a2755c06cf976f2, type: 2}
     option: Plant
     points: 0
-    flag: 0
+    flag: 6
   - linkedSet: {fileID: 11400000, guid: 1cb8c78863aa4d045a2755c06cf976f2, type: 2}
     option: Animal-like
     points: 0
-    flag: 0
+    flag: 5
   - linkedSet: {fileID: 11400000, guid: 1cb8c78863aa4d045a2755c06cf976f2, type: 2}
     option: Mythical-like
     points: 0
-    flag: 0
+    flag: 7

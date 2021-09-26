@@ -48,13 +48,18 @@ public class Textbox : MonoBehaviour
         if (T == null)
         {
             T = this;
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
         else {
             Destroy(gameObject);
         }
 
 
+    }
+
+    private void Start()
+    {
+        read(nextDialogues[0]);
     }
 
     private void Update()
